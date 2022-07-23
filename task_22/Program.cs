@@ -4,8 +4,10 @@
 5 -> 1, 4, 9, 16, 25.
 2 -> 1,4*/
 
-Console.Write("Введите число:");
+Console.Clear();
+Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
+int i=1;
 
 WriteSquareTable(n);
 
