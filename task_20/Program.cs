@@ -17,11 +17,10 @@ secondX = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координаты Y второй точки: ");
 secondY = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(GetDistance(firstX, firstY, secondX, secondY));
-
 double GetDistance(int ax, int ay, int bx, int by)
 {
     return Math.Round(Math.Sqrt(((bx - ax) * (bx - ax)) + ((by - ay) * (by - ay))), 2, MidpointRounding.ToZero);
 }
 
+Console.WriteLine(GetDistance(firstX, firstY, secondX, secondY));
 Console.WriteLine();
