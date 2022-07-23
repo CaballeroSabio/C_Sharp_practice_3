@@ -4,8 +4,8 @@
 */
 
 Console.Clear();
-Console.WriteLine("Введите номер четверти ");
-int numberQuater = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите номер четверти: ");
+int numberQuarter = Convert.ToInt32(Console.ReadLine());
 
 
 string Quarter(int q)
@@ -17,5 +17,6 @@ string Quarter(int q)
     return "Подобной четверти не существует";
 }
 
-string result = Quarter(numberQuater);
+string result = Quarter(numberQuarter);
 Console.WriteLine(result);
+Console.WriteLine();
