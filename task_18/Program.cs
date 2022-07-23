@@ -5,16 +5,16 @@
 
 Console.Clear();
 Console.Write("Введите номер четверти: ");
-int numberQuarter = Convert.ToInt32(Console.ReadLine());
+string numberQuarter = Console.ReadLine();
 
 
-string Quarter(int q)
+string Quarter(string q)
 {
-    if (q == 1) return "x > 0 и y > 0";
-    if (q == 2) return "x < 0 и y > 0";
-    if (q == 3) return "x < 0 и y < 0";
-    if (q == 4) return "x > 0 и y < 0";   
-    return "Подобной четверти не существует";
+    if (q == "1") return ("x > 0 и y > 0");
+    if (q == "2") return ("x < 0 и y > 0");
+    if (q == "3") return ("x < 0 и y < 0");
+    if (q == "4") return ("x > 0 и y < 0");   
+    return ("Подобной четверти не существует");
 }
 
 string result = Quarter(numberQuarter);
