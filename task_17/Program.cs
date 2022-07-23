@@ -31,12 +31,12 @@ else if (x > 0 && y < 0)
 else Console.WriteLine("Введены некорректные данные");
 */
 
-string Quarter(int xc, int yc)
+string Quarter(int a, int b)
 {
-    if (xc > 0 && yc > 0) return"Первая четверть";
-    if (xc < 0 && yc > 0) return"Вторая четверть";
-    if (xc < 0 && yc < 0) return "Третья четверть";
-    if (xc > 0 && yc < 0) return "Четвертая четверть";
+    if (a > 0 && b > 0) return"Первая четверть";
+    if (a < 0 && b  > 0) return"Вторая четверть";
+    if (a < 0 && b < 0) return "Третья четверть";
+    if (a > 0 && b < 0) return "Четвертая четверть";
     return "Введены некорректные данные";
 }
 
