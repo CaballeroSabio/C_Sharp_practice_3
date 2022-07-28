@@ -5,4 +5,13 @@
 */
 
 Console.Clear();
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hi, User!")
+Console.WriteLine("Enter a five-digit number ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int Palindrome (int )
+{ 
+    if ()
+}
+
+
