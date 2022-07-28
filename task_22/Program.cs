@@ -23,4 +23,4 @@ void WriteSquareTable(int n)
     }
 }
 
-
+Console.WriteLine();
