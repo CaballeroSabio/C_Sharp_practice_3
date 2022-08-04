@@ -5,13 +5,25 @@
 */
 
 Console.Clear();
-Console.WriteLine("Hi, User!")
-Console.WriteLine("Enter a five-digit number ");
-int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Hi, User!");
+Console.WriteLine("Enter a five-digit number: ");
+int fiveDigitNumber = Convert.ToInt32(Console.ReadLine());
+int a = 0;
+int b = 0;
+int c = 0;
+int d = 0;
+int e = 0;
 
-int Palindrome (int )
+int Palindrome (int number)
 { 
-    if ()
-}
+    for (number >= 1000, number < 100000);
+    { 
+        int a = number/1000;
+        int b = number/
+    }
+    return Math.Round(number/1000, MidpointRounding.ToZero);
+]
+
+int x = Palindrome (number);
 
 
