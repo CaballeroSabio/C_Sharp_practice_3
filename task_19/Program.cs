@@ -6,7 +6,7 @@
 
 Console.Clear();
 Console.WriteLine("Hi, User!");
-Console.WriteLine("Enter a five-digit number: ");
+Console.Write("Enter a five-digit number: ");
 int fiveDigitNumber = Convert.ToInt32(Console.ReadLine());
 int a = 0;
 int b = 0;
@@ -14,16 +14,32 @@ int c = 0;
 int d = 0;
 int e = 0;
 
-int Palindrome (int number)
-{ 
-    for (number >= 1000, number < 100000);
-    { 
-        int a = number/1000;
-        int b = number/
-    }
-    return Math.Round(number/1000, MidpointRounding.ToZero);
-]
+if (fiveDigitNumber >= 10000 && fiveDigitNumber < 100000)
+{
+    Palindrome (fiveDigitNumber);
+}
+else
+{
+    Console.WriteLine("This number is not five digits");
+}
 
-int x = Palindrome (number);
+void Palindrome (int x)
+{ 
+    int a = x/10000;
+    int b = x/1000%10;
+    int d = x/10%10;
+    int e = x%10;
+    if (a == e && b == d) 
+    {
+        Console.WriteLine("This 5 digit number is a palindrome");
+    }
+    else
+    {
+        Console.WriteLine("This 5 digit number isn't a palindrome");
+    }
+}
+
+Console.WriteLine("Goodbye, User!");
+Console.WriteLine();
 
 
