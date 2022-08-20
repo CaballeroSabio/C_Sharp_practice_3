@@ -1,4 +1,5 @@
-﻿/* Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+﻿/* Задача 19.
+ * Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 14212 -> нет
 12821 -> да
 23432 -> да
@@ -8,11 +9,6 @@ Console.Clear();
 Console.WriteLine("Hi, User!");
 Console.Write("Enter a five-digit number: ");
 int fiveDigitNumber = Convert.ToInt32(Console.ReadLine());
-int a = 0;
-int b = 0;
-int c = 0;
-int d = 0;
-int e = 0;
 
 if (fiveDigitNumber >= 10000 && fiveDigitNumber < 100000)
 {
